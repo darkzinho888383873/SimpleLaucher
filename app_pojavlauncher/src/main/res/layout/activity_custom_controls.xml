@@ -4,12 +4,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:layout_alignParentRight="true"
     android:id="@+id/customctrl_drawerlayout">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content">
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#4A148C">
 
         <net.kdt.pojavlaunch.customcontrols.handleview.DrawerPullButton
             android:id="@+id/drawer_button"
@@ -25,7 +25,6 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
             android:text="@string/hint_control_mapping"
             android:textColor="#FFFFFF"
             android:background="#4A148C"
@@ -36,8 +35,7 @@
         <net.kdt.pojavlaunch.customcontrols.ControlLayout
             android:id="@+id/customctrl_controllayout"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#4A148C" />
+            android:layout_height="match_parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
